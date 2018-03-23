@@ -1,0 +1,17 @@
+### GCP
+POST https://us-central1-api-project-287955470385.cloudfunctions.net/function-1
+content-type: application/json
+
+{
+    "message":"testing 1 2 3"
+}
+
+### AWS
+https://lambda.us-east-1.amazonaws.com/2015-03-31/functions/arn:aws:lambda:us-east-1:510535528919:function:function-1/invocations
+
+###
+POST https://lambda.us-east-1.amazonaws.com/2015-03-31/functions/arn:aws:lambda:us-east-1:510535528919:function:function-1/invocations
+
+### IBM
+curl -u d4ba5640-135c-49e6-b04c-0fc137f45a4e:1p6DxyYNvjBwtMg93IIEutcgyll5S1sTjLXsvweN5Fn4D0ygC9To1FrKtDZO2WWF -X POST https://openwhisk.ng.bluemix.net/api/v1/namespaces/matt.burleigh%40pobox.com_dev/actions/hello-world/helloworld?blocking=true
+

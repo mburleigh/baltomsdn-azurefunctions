@@ -1,0 +1,5 @@
+POST http://localhost:7071/orchestrators/E1_HelloSequence
+###
+http://localhost:7071/admin/extensions/DurableTaskExtension/instances/54662da13ca44fe28e66f14a3956ee31?taskHub=SampleHubVS&connection=Storage&code=rj84xQZlkp9cC7lwbYlVC0wqL0Ph4tRgYr9aMz42fvxc884FJmjFSw==
+###
+POST http://localhost:7071/orchestrators/E1_HelloSequence/wait
